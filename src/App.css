@@ -49,21 +49,57 @@
 }
 
 /* Blogs */
-.blog-container{
+.blog-container {
   height: auto;
   width: 100%;
   padding: 2.5%;
 }
-.posts{
+.posts {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  gap: 20px; /* Space between cards */
   padding: 2.5%;
+}
+.posts .MuiCard-root {
+  width: 100%; /* Default full width */
+  max-width: 345px; /* Limit for larger screens */
 }
 #write{
   font-family: "Poppins", serif;
   font-size: 26px;
 }
+#write2{
+  font-family: "Poppins", serif;
+  font-size: 21px;
+  text-decoration: none;
+}
+.footer {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 2px solid #4a4461;
+  border-radius: 5px;  
+  padding: 2%;
+  margin: 2%;
+  height: auto;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
 
 /* Responsive Design for Mobile */
 @media screen and (max-width: 768px) {
@@ -85,6 +121,11 @@
   #write{
     font-size: 18px;
   }
+  #write2{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    text-decoration: none;
+  }
 
   .btn-light {
     font-size: 16px;
@@ -94,6 +135,14 @@
     border: none !important;
     box-shadow: none !important;
 }
+.posts {
+  flex-direction: column;
+  align-items: center;
+}
+.posts .MuiCard-root {
+  width: 90%; /* Cards take 90% of screen width for better fit */
+  max-width: 100%;
+}
 
 }
 
@@ -102,6 +151,10 @@
     border: none !important;
     box-shadow: none !important;
   }
+  .posts .MuiCard-root {
+    width: 100%; /* Cards take full width */
+    max-width: 100%;
+  }
   .container-fluid {
     margin-left: 10px;
     margin-right: 10px;
@@ -109,6 +162,11 @@
 
   #write{
     font-size: 18px;
+  }
+  #write2{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    text-decoration: none;
   }
 
   .header {

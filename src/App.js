@@ -3,6 +3,7 @@ import './App.css';
 import Blogs from './components/Blogs';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   const blogsRef = useRef(null);
@@ -20,6 +21,7 @@ function App() {
       <div ref={blogsRef}>
         <Blogs />
       </div>
+      <Footer/>
     </>
   );
 }
