@@ -4,7 +4,7 @@ import { Card, CardContent, CardMedia, Typography, Button, CardActionArea, CardA
 export default function Blogs() {
   return (
     <div className='blog-container'>
-      <p id='write'>Latest Write</p>
+      <p id='write'>Latest Writes →</p>
 
       <div class="posts">
       <Card sx={{ maxWidth: 345 }}>
