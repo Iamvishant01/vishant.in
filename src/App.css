@@ -75,13 +75,11 @@
   text-decoration: none;
 }
 .footer {
-  background-color: transparent;
+  background-color: #d3d3d3;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
-  border: 2px solid #4a4461;
-  border-radius: 5px;  
   padding: 2%;
   margin: 2%;
   height: auto;
@@ -91,13 +89,53 @@
   flex: 1;
   min-width: 250px;
   margin: 10px;
+  text-align: left;
+}
+.footer-col a{
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+.footer-col a:hover{
+  color: #0A58CA;
+}
+#posts-footer{
+  padding: 0.5%;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+}
+#footer-heading{
+  font-family: "Lexend Deca", serif;
+  font-size: 22px;
+  text-align: left;
+}
+.footer-col a i{
+  width: 32px;
+  font-size: 24px;
 }
 
 @media (max-width: 768px) {
   .footer {
-      flex-direction: column;
-      align-items: center;
-  }
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 32px;
+    flex-direction: column;
+    align-items: center;
+
+}
+#write2{
+  font-size: 12px;
+}
+#write2 p{
+  font-size: 17px;
+  padding: 2%;
+}
+.footer-col {
+    width: 100%;
+    margin-bottom: 20px;
+}
 }
 
 
@@ -107,6 +145,19 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 2%;
+    margin-bottom: 5%;
+
+}
+
+.footer-col {
+    width: 100%;
+    margin-bottom: 20px;
+}
 
   .header {
     padding: 5%;
@@ -123,7 +174,10 @@
   }
   #write2{
     font-family: "Poppins", serif;
-    font-size: 18px;
+  #write2 p{
+    font-size: 17px;
+    padding: 2%;
+  }
     text-decoration: none;
   }
 
@@ -138,6 +192,7 @@
 .posts {
   flex-direction: column;
   align-items: center;
+  margin: 2%;
 }
 .posts .MuiCard-root {
   width: 90%; /* Cards take 90% of screen width for better fit */
@@ -165,10 +220,12 @@
   }
   #write2{
     font-family: "Poppins", serif;
-    font-size: 18px;
     text-decoration: none;
   }
-
+  #write2 p{
+    font-size: 17px;
+    padding: 2%;
+  }
   .header {
     padding: 8%;
     height: 70vh;
