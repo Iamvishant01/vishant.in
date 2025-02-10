@@ -19,6 +19,16 @@ export default function Footer() {
               <a href="https://www.reddit.com/user/Unique_Plastic_4202/" target='about_blank'><p id="posts-footer"><i class="fa-brands fa-reddit"></i> Reddit</p></a>
               <a href="mailto:iamvishant01@gmail.com"><p id="posts-footer"><i class="fa-solid fa-envelope"></i> Mail</p></a>
             </div>
+            <div className="footer-col" >
+              <iframe
+                id='kothrud-map'
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30267.80071956922!2d73.78405980753173!3d18.507420981837626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfb732af849d%3A0xd4078b48b3fe44f0!2sKothrud%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1739171891350!5m2!1sen!2sin"
+                title="Google Maps - Kothrud, Pune"
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
         </footer>
     </div>
     </>
