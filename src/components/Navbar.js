@@ -26,6 +26,7 @@ export default function Navbar() {
                     </a>
                     <ul className="dropdown-menu">
                         <li><a className="dropdown-item" href="/" onClick={handleAlert}>Philosophy</a></li>
+                        <li><a className="dropdown-item" href="/" onClick={handleAlert}>Astrology</a></li>
                         <li><a className="dropdown-item" href="/" onClick={handleAlert}>The Learnings</a></li>
                     </ul>
                     </li>
