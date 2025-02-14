@@ -5,8 +5,9 @@ export default function Astrology() {
   return (
     <>
     <div className="Astrology-main">
+    <p id='write'>Astrology posts →</p>
         <div className="astrology">
-            <p id='write'>Astrology posts →</p>
+            {/* post1 */}
             <Card sx={{ maxWidth: 345 }}>
                 <CardActionArea>
                     <CardMedia

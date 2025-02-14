@@ -122,12 +122,25 @@
 
 /* Astrology page */
 .Astrology-main{
-  width: 100%;
   height: auto;
+  width: 100%;
+  padding: 2.5%;
+  
+}
+.astrology{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
   padding: 2.5%;
 }
 
 @media (max-width: 768px) {
+  .astrology{
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+  }
   .footer {
     flex-direction: column;
     align-items: flex-start;
@@ -153,6 +166,11 @@
 
 /* Responsive Design for Mobile */
 @media screen and (max-width: 768px) {
+  .astrology{
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+  }
   .container-fluid {
     margin-left: 20px;
     margin-right: 20px;
