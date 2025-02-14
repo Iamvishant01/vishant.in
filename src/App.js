@@ -5,7 +5,7 @@ import Blogs from './components/Blogs';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Astrology from './components/Astrology'; // Import Astrology page
+import Astrology from './pages/Astrology'; // Import Astrology page
 
 function App() {
   const blogsRef = useRef(null);
