@@ -20,8 +20,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/home" element={<Home scrollToBlogs={scrollToBlogs} />} />
-        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/" element={<Home scrollToBlogs={scrollToBlogs} />} />
+        <Blogs/>
         <Route path="/astrology" element={<Astrology />} /> {/* Astrology Page */}
       </Routes>
       <Footer />
