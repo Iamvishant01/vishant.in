@@ -8,7 +8,7 @@ export default function Blogs() {
 
       <div class="posts">
                 {/* posts0 */}
-                <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345 }}>
           <CardActionArea>
               <CardMedia
               component="img"
