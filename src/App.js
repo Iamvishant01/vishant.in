@@ -21,9 +21,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home scrollToBlogs={scrollToBlogs} />} />
-        <Blogs/>
         <Route path="/astrology" element={<Astrology />} /> {/* Astrology Page */}
       </Routes>
+      <Blogs/>
       <Footer />
     </Router>
   );
