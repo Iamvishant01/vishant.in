@@ -9,6 +9,7 @@ export default function Footer() {
                 <br/>
                 <a href="https://iamvishant.blogspot.com/2025/02/vishant-netke-journey-of-innovation.html" target='about_blank'><p id='posts-footer'>Vishant Netke: The Journey of Innovation, Growth, and Storytelling</p></a>
                 <a href="https://iamvishant.blogspot.com/2025/02/the-astrology-unveiling-effect-of-stars.html" target='about_blank'><p id="posts-footer">The Astrology : Unveiling the effect of Stars and Destiny</p></a>
+                <a href="https://iamvishant.blogspot.com/2025/02/the-fruit-of-youth-message-for-teenagers.html" target='about_blank'><p id="posts-footer">The Fruit of Youth - A Message for Teenagers</p></a>
             </div>
             <div className="footer-col">
               <h3 id='footer-heading'>Stay in Touch on Wildr</h3>
