@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Astrology from "./pages/Astrology"; // Import Astrology page
+import Learnings from "./pages/Learnings";
 
 function App() {
   const blogsRef = useRef(null);
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home scrollToBlogs={scrollToBlogs} />} />
         <Route path="/astrology" element={<Astrology />} /> {/* Astrology Page */}
+        <Route path="/learnings" element={<Learnings />}/>
       </Routes>
       <Blogs ref={blogsRef} />
       <Footer />

@@ -25,8 +25,7 @@ export default function Navbar() {
               </Link>
               <ul className="dropdown-menu">
                 <li><Link className="dropdown-item" to="/astrology">Astrology</Link></li>
-                <li><Link className="dropdown-item" to="#" onClick={handleAlert}>Philosophy</Link></li>
-                <li><Link className="dropdown-item" to="#" onClick={handleAlert}>The Learnings</Link></li>
+                <li><Link className="dropdown-item" to="/learnings" >The Learnings</Link></li>
               </ul>
             </li>
           </ul>
