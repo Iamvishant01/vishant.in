@@ -134,6 +134,49 @@
   gap: 20px; /* Space between cards */
   padding: 2.5%;
 }
+.about-main {
+  width: 96%;
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 5px;
+}
+
+.about-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.about-text {
+  width: 100%;
+  max-width: 600px;
+}
+
+@media (min-width: 768px) {
+  .about-main {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .about-img, .about-text {
+    width: 48%;
+  }
+}
+
 
 @media (max-width: 768px) {
   .astrology{
