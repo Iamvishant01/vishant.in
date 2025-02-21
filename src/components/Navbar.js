@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" onClick={handleAlert} >About</Link>
+              <Link className="nav-link" to="/about" >About</Link>
             </li>
             <li className="nav-item dropdown">
               <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -31,7 +31,7 @@ export default function Navbar() {
           </ul>
           <form className="d-flex" role="search">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-            <button className="btn btn-dark" type="submit">Search</button>
+            <button className="btn btn-dark" type="submit" onClick={handleAlert} >Search</button>
           </form>
         </div>
       </div>
