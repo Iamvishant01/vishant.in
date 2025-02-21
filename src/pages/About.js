@@ -12,18 +12,25 @@ export default function About() {
       </div>
       <div className="text-container">
         <p className="about-text">
-          My achievement is not what I have,<br />
-          My introduction is not what I do,<br />
-          It is but who I am.<br />
-          A nobody.<br /><br />
-          I sing, I laugh, I dance, I clap,<br />
-          A speck of dust in the infinite creation,<br />
-          A vast ocean in the tiny dew drop,<br />
-          A Himalayan stream,<br />
-          The still mountain.<br /><br />
-          I am That.<br />
-          So are you.<br /><br />
-          Compassion is my religion and love, my only philosophy.
+        My achievement is not what I have,<br />
+        My introduction is not what I do,<br />
+        <br/>
+        It is but what I create.<br />
+
+        I build, I break, I learn, I grow,<br />
+        A drop of code in the vast digital cosmos,<br />
+        A spark of curiosity,<br />
+        The silent observer.<br /><br />
+
+        I weave stories of the seen and unseen,<br />
+        Of the world outside and the universe within,<br />
+        Exploring the mysteries of life,<br />
+        Unraveling the threads of spirituality,<br />
+
+        I am That.<br />
+        <br/>
+        Innovation is my language, storytelling my expression,<br />
+        And passion, my only path.
         </p>
       </div>
     </div>
