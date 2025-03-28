@@ -127,6 +127,13 @@
   padding: 2.5%;
   
 }
+.astrology{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+  padding: 2.5%;
+}
 .about-section {
   display: flex;
   flex-direction: column;
