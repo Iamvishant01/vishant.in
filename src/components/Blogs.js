@@ -16,6 +16,31 @@ const Blogs = forwardRef((props, ref) => {
 
       <div className="posts">
 
+      {/* post 5 */}
+      <Card sx={{ maxWidth: 345 }}>
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              sx={{ width: "100%", height: "140px" }}
+              image="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5qVBEQ-4-A0yUsZvtCF2DsP1wmOSqkxpnQsVwH4YKzCZlbQQmF343LwkauKYnRU3qo-mrHoFsTQuxrbqt_Zz2qdYMPJh0E4JOVGyuOOwduUPh9IH78FZMZ4j5j4nGDpkjEcrnSV5Wj39jMyYfL_Dhb2feOKPLXNQnLeSqiz6m97Al30thI-jaqKPIgt3q/w640-h360/poster.jpeg"
+              alt="Galaxy"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5">
+              The Birth Chart: Unlocking the Secrets of Your Cosmic Blueprint
+              </Typography>
+              <Typography variant="body2" sx={{ color: "text.secondary" }}>
+              Since ancient times, humanity has been fascinated by the stars, believing them to hold the secrets of destiny...
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <a href="https://iamvishant.blogspot.com/2025/03/the-birth-chart-unlocking-secrets-of.html" target="_blank" rel="noopener noreferrer">
+              <Button size="small" color="primary">Read More</Button>
+            </a>
+          </CardActions>
+        </Card>
+
         {/* post 4 */}
       <Card sx={{ maxWidth: 345 }}>
           <CardActionArea>
