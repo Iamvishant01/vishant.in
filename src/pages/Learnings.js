@@ -7,6 +7,30 @@ export default function Learnings() {
     <div className="Astrology-main">
     <p id='write'>The Learnings →</p>
         <div className="astrology">
+                        {/* post 6 */}
+      <Card sx={{ maxWidth: 345 }}>
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              sx={{ width: "100%", height: "140px" }}
+              image="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEv50mdlV5hO5wpXR9V6JXXhGy6jSHNdgTTsGQqQlDq4sTebXgWKWTHAvRVlPL1ttuSxs_FJwQ1DHvhystLTWoI35nRsd_ZmxsmrR-9o-intBRip2_cAIAfu8O_tMfa4iGWZNBw9DI8jPkm2xhmdFH1xlxb9UMMo0m1pCVtTf3nHCYfl1Xm5OUvRu4oqNT/w400-h267/ChatGPT%20Image%20Jun%203,%202025,%2001_34_04%20PM.png"
+              alt="kutumb "
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5">
+              Kutumb : Animals That Live in Harmony Together
+              </Typography>
+              <Typography variant="body2" sx={{ color: "text.secondary" }}>
+              we generally use to ask " Tell me about your family ? " And that other person starts talking about their family, from the first person to another person like they're talking about a cricket team.           
+               </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <a href="https://iamvishant.blogspot.com/2025/06/kutumb-animals-that-live-in-harmony.html" target="_blank" rel="noopener noreferrer">
+              <Button size="small" color="primary">Read More</Button>
+            </a>
+          </CardActions>
+        </Card>
             {/* post1 */}
             <Card sx={{ maxWidth: 345 }}>
                 <CardActionArea>
